@@ -5,7 +5,7 @@ import pickle
 
 app = Flask(__name__)
 
-with open("SLR_model.pkl", "rb") as f:
+with open("SLR_Model.pkl", "rb") as f:
     model = pickle.load(f)
 
 
